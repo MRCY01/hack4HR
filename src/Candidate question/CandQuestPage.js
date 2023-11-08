@@ -7,9 +7,8 @@ function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   const questions = [
-    'Question 1: What is your favorite color?',
-    'Question 2: How did you learn to code?',
-    'Question 3: Where do you see yourself in 5 years?',
+    'Question 1: What do you do when the Google Cloud server is down?',
+    'Question 2: What are the various kinds of diagrams you use as a business analyst? How do they impact the work?',
     'Thank you for joining! Our Interviewer will evaluate your answer and reach out to you when the evaluation is complete.',
   ];
 
@@ -38,14 +37,13 @@ function App() {
       <Typography variant="h5">
         Are You Ready??
       </Typography>
-      <Typography variant="h5">
-        Click on The "Open Question" Button to start the interview Question
+      <Typography variant="h5" marginBottom={"10px"}>
+        Click on The "Start Interview" Button to start the interview Question
       </Typography>
       <Button variant="contained" color="primary" onClick={openDialog}>
-        Open Questions
+      Start Interview
       </Button>
       <Dialog open={isDialogOpen} onClose={closeDialog}>
-        <DialogTitle>Questions</DialogTitle>
         <DialogContent style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <Typography variant="body1">
             {questions[currentQuestionIndex]}

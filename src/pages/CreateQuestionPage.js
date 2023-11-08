@@ -17,9 +17,9 @@ function CreateQuestionPage() {
                 <Card
                     elevation={3}
                     sx={{ p: 2, mb: 2, display: 'flex', flexDirection: 'column' }}
-                    onClick={() => handlePaperClick("Senior Illustrator")}
+                    onClick={() => handlePaperClick("Business Analyst")}
                 >
-                    <Typography variant='h4'>Senior Illustrator</Typography>
+                    <Typography variant='h4'>Business Analyst</Typography>
                 </Card>
                 <Card
                     elevation={3}

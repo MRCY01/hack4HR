@@ -18,15 +18,15 @@ function RecommCandidate() {
                 <Card
                     elevation={3}
                     sx={{ p: 2, mb: 2, display: 'flex', flexDirection: 'column' }}
-                    onClick={() => handlePaperClick("Senior Illustrator","10")}
+                    onClick={() => handlePaperClick("Business Analyst","10")}
                 >
-                    <Typography variant='h4'>Senior Illustrator</Typography>
+                    <Typography variant='h4'>Business Analyst</Typography>
                     <Typography variant='body1'> matched candidate : 10</Typography>
                 </Card>
                 <Card
                     elevation={3}
                     sx={{ p: 2, mb: 2, display: 'flex', flexDirection: 'column' }}
-                    onClick={() => handlePaperClick("Senior Illustrator","8")}
+                    onClick={() => handlePaperClick("Junior Java Programmer","8")}
                 >
                     <Typography variant='h4'>Junior Java Programmer</Typography>
                     <Typography variant='body1'> matched candidate : 8</Typography>
@@ -34,7 +34,7 @@ function RecommCandidate() {
                 <Card
                     elevation={3}
                     sx={{ p: 2, mb: 2, display: 'flex', flexDirection: 'column' }}
-                    onClick={() => handlePaperClick("Senior Illustrator","10")}
+                    onClick={() => handlePaperClick("Junior Java Programmer","10")}
                 >
                     <Typography variant='h4'>Human Resource on Finiance</Typography>
                     <Typography variant='body1'> matched candidate : 10</Typography>

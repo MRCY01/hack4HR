@@ -19,15 +19,15 @@ function JobDetails() {
     };
 
 
-    if (jobTitle === "Senior Illustrator") {
+    if (jobTitle === "Business Analyst") {
         tableBody = (
             <TableBody>
                 <TableRow>
                     <TableCell>1</TableCell>
-                    <TableCell>Lim Ah Keong</TableCell>
+                    <TableCell>Sherilynn Ngerng</TableCell>
                     <TableCell>
-                        <a href='https://www.google.com/' target="_blank" rel="noopener noreferrer">
-                            linkedIn.com/LimAhKeong
+                        <a href='https://www.linkedin.com/in/sheriiee/' target="_blank" rel="noopener noreferrer">
+                        https://www.linkedin.com/in/sheriiee/
                         </a>
                     </TableCell>
                     <TableCell>80%</TableCell>
@@ -68,11 +68,11 @@ function JobDetails() {
                 </Paper>
             </Box>
             <Dialog open={isDialogOpen} onClose={handleCloseDialog} maxWidth="lg">
-                <DialogTitle>Candidate Name: Lim Ah Keong</DialogTitle>
+                <DialogTitle>Candidate Name: Sherilynn Ngerng</DialogTitle>
                 <DialogContent>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <Typography variant="h6">Question 1: What do you do when the AWS server is down?</Typography>
+                            <Typography variant="h6">Question 1: What do you do when the Google Cloud server is down?</Typography>
                             
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -90,7 +90,7 @@ function JobDetails() {
                         </div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <Typography variant="h6">Question 2: Another question here?</Typography>
+                            <Typography variant="h6">Question 2: What are the various kinds of diagrams you use as a business analyst? How do they impact the work?</Typography>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <TextField

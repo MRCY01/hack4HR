@@ -20,11 +20,11 @@ function CreateQuestionForm() {
     };
 
     const handleQ1Click = () => {
-        setAutofillQ1Value("what  do you do when the aws server is down?");
+        setAutofillQ1Value("What do you do when the Google Cloud server is down?");
     };
 
     const handleQ2Click = () => {
-        setAutofillQ2Value("What is the main concept of java?");
+        setAutofillQ2Value("What are the various kinds of diagrams you use as a business analyst? How do they impact the work?");
     };
     return (
         <div>
@@ -49,7 +49,7 @@ function CreateQuestionForm() {
                                 sx={{ mr: 2 }}
                                 onClick={handleQ1Click}
                             >
-                                AWS
+                                Google Cloud
                             </Button>
                             <Button
                                 variant="contained"
@@ -57,7 +57,7 @@ function CreateQuestionForm() {
                                 size="large"
                                 sx={{ mr: 2 }}
                             >
-                                IT
+                                BA Diagram
                             </Button>
                             <Button
                                 variant="contained"
@@ -87,7 +87,7 @@ function CreateQuestionForm() {
                                 size="large"
                                 sx={{ mr: 2 }}
                             >
-                                AWS
+                                Google Cloud
                             </Button>
                             <Button
                                 variant="contained"
@@ -96,7 +96,7 @@ function CreateQuestionForm() {
                                 sx={{ mr: 2 }}
                                 onClick={handleQ2Click}
                             >
-                                IT
+                                BA Diagram
                             </Button>
                             <Button
                                 variant="contained"

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import CustomAppBar from '../pages/AppBar/AppBar';
-import { Grid, Paper, Typography, Box, Table, TableHead, TableRow, TableCell, TableBody, Button, DialogTitle, DialogActions, Dialog, TextField, DialogContent, IconButton } from '@mui/material';
+import { Grid, Paper, Typography, Box, Table, TableHead, TableRow, TableCell, TableBody, Button, DialogTitle, DialogActions, Dialog, TextField, DialogContent, IconButton, colors } from '@mui/material';
 import React, { useState } from 'react';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
@@ -73,9 +73,7 @@ function JobDetails() {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <Typography variant="h6">Question 1: What do you do when the AWS server is down?</Typography>
-                            <IconButton>
-                                <PlayCircleOutlineIcon />
-                            </IconButton>
+                            
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <TextField
@@ -86,13 +84,13 @@ function JobDetails() {
                                 disabled
                                 value={"I would go and ask for the support team in AWS to help me with"}
                             />
+                            <IconButton style={{ background: "#3A83D8", borderRadius: '50%' }}>
+                                <PlayCircleOutlineIcon style={{color:'white'}}/>
+                            </IconButton>
                         </div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <Typography variant="h6">Question 2: Another question here?</Typography>
-                            <IconButton>
-                                <PlayCircleOutlineIcon />
-                            </IconButton>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <TextField
@@ -102,6 +100,9 @@ function JobDetails() {
                                 fullWidth
                                 disabled
                             />
+                            <IconButton style={{ background: "#3A83D8", borderRadius: '50%' }}>
+                                <PlayCircleOutlineIcon style={{color:'white'}}/>
+                            </IconButton>
                         </div>
 
                     </div>

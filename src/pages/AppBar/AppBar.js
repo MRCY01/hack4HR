@@ -30,7 +30,7 @@ function CustomAppBar({ title }) {
         <IconButton color="inherit" onClick={handleHomeClick}>
           <HomeIcon />
         </IconButton>
-        <IconButton color="inherit" onClick={handleProfileClick}>
+        <IconButton color="inherit">
           <AccountCircleIcon />
         </IconButton>
         <IconButton color="inherit" onClick={handleLogoutClick}>
